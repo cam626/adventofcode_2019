@@ -216,7 +216,7 @@ if __name__ == "__main__":
 	program = f.readlines()[0].strip("\n").split(",")
 
 	program.extend(memory)
-	comp = IntcodeComputer(program, [1])
+	comp = IntcodeComputer(program, [2])
 	
 	done = False
 	while not done:
